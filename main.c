@@ -11,6 +11,7 @@ int main() {
 #ifdef __AVX__
 	printf( "AVX flag is enabled by compiler.\r\n");
 #endif
+
 	float* arr1 = (float*) malloc( sizeof(float) * N );
 	float* arr2 = (float*) malloc( sizeof(float) * N );
 
